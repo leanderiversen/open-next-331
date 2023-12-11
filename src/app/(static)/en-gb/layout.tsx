@@ -15,7 +15,7 @@ export default function EnGbLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en-gb-2">
+    <html lang="en-gb">
       <body className={inter.className}>{children}</body>
     </html>
   );
